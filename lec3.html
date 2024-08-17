@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+    <h1>Login</h1>
+    <p>user name: <input type="text" name="name" id="name" required></p>
+    <p>phone no: <input type="tel" name="phone" id="phone" required ></p>
+    <p>password: <input type="password" name="pass" id="pass" required></p>
+    <hr>
+    <h1>contact info</h1>
+    <p>Name: <input type="text" name="name" id="name" required></p>
+    <p>email: <input type="email" name="email" id="email" required></p>
+    <p>Address: <textarea name="add" id="add" required></textarea></p>
+    <p>pincode: <input type="number" name="pin" id="pin" required></p>
+    <p><fieldset>
+        <legend>Gender</legend>
+     mail<input type="radio" name="gen" id="mail" required>
+femail <input type="radio" name="gen" id="femail" required></fieldset></p>
+<p>password: <input type="password" name="pass" id="pass" required></p>
+<h2>choose color:</h2>
+<p>red <input type="checkbox" name="col" id="r">
+green <input type="checkbox" name="col" id="g">
+blue <input type="checkbox" name="col" id="b"></p>
+<hr>
+<h1>card details</h1>
+<p>
+    select card:
+    <select name="card" id="card" required>
+        <option value="">select card</option>
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+    </select>
+</p>
+<p>cardd number:<input type="number" name="cn" id="cn" required></p>
+<p>expiry date: <input type="date" name="date" id="date" required></p>
+<input type="submit" value="pay now">
+<input type="reset" value="reset">
+
+</form>
+</body>
+</html>
